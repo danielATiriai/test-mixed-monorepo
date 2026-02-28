@@ -1,0 +1,20 @@
+{
+  "name": "test-mixed-monorepo-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for test-mixed-monorepo (Nixpacks/Parcel)",
+  "scripts": {
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "start": "serve -s dist -l 3000"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "serve": "^14.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "parcel": "^2.13.3",
+    "typescript": "^5.7.2"
+  }
+}
